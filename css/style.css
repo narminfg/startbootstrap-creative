@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ .header{
+    
+    overflow: auto;
+    padding: 25px 60px;
+    position: fixed;
+    width: 100%;
+    
+ }
+ .header .logo{
+    float: left;
+ }
+ .logo a{
+    color:  rgba(255, 255, 255, 0.7);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 5px 0px;
+    margin: 0px 16px 0px 0px;
+   
+ }
+ .header .nav{
+    float: right;
+ }
+ .nav a{
+color:  #fff;
+padding: 0 1rem;
+font-weight: 700;
+font-size: 0.9rem;
+
+}
+.logo{
+    float: left;
+}
+.nav{
+    float: right;
+}
+.nav a{
+    margin-left: 20px;
+}
+.main{
+    text-align: center;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    padding: 13rem 0;
+    background-position: center;
+    background-size: cover;
+}
+.main h1{
+    color: #FFFFFF;
+    font-size: 56px;
+    margin: 0px 0px 8px;
+    font-weight: 500;
+
+}
+.main p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+    margin-bottom: 50px;
+}
+.main a{
+    color: #fff;
+    background-color: #cf5331;
+    border-color: #c34e2e;
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 10rem;
+}
+.main hr{
+    width: 5%;
+    background-color: #cf5331;
+    border: none;
+    height: 3px;
+    margin: 18px auto;
+
+}
+.about{
+    text-align: center;
+   background-color: #cf5331;
+    background-position: center;
+    background-size: cover;
+padding: 120px 0px;
+
+}
+.about h2{
+    color: #FFFFFF;
+    font-size: 42px;
+    margin: 0px 0px 8px;
+    font-weight: 500;
+
+}
+.about p{
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.15rem;
+    margin-bottom: 3rem;
+    margin-bottom: 50px;
+}
+.about a{
+    color: black;
+    background-color:#FFFFFF;
+    
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 10rem;
+}
+.about hr{
+    width: 5%;
+    background-color:#FFFFFF;
+border: none;
+height: 0.2rem;
+    margin: 1.5rem auto;
+
+}
+.photos .box img{
+    vertical-align: bottom;
+    width: 100%;
+}
+.photos .box{
+    width: calc(100%/3);
+    float: left;
+}
+.download{
+    text-align: center;
+    background-color: #212529;
+     background-position: center;
+     background-size: cover;
+ padding: 120px 0px;
+ 
+}
+.download h2{
+    color: #FFFFFF;
+    font-size: 42px;
+    margin: 0px 0px 45px;
+    font-weight: 500;
+  
+}
+.download a{
+    color: black;
+    background-color:#FFFFFF;
+    
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 10rem;
+}
+.all{
+    text-align: center;
+    padding: 100px;
+    
+}
+.tittle{
+  width: 50%;
+  margin: auto;
+
+ 
+}
+.tittle h2{
+    color: black;
+    font-size: 42px;
+    margin: 0px 0px 8px;
+    font-weight: 500;
+}
+.tittle hr{
+    width: 5%;
+    background-color:#cf5331;
+border: none;
+height: 0.2rem;
+    margin: 1.5rem auto;
+
+}
+.tittle p{
+    color: #6c757d;
+    margin-bottom: 3rem;
+    font-size: 1.15rem;
+    
+
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+
+  input{
+    border-color: #dc3545;
+    padding: 1rem 0.75rem;
+    width: 80%;
+    margin: 5px 50px ;
+    font-size: 20px;
+   border-radius: 5px;
+   
+    
+  }
+  textarea{
+    border-color: #dc3545;
+    padding: 1rem 0.75rem;
+    width: 80%;
+    margin:5px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+ button{
+    background-color:#F89980;
+    color: #fff;
+    width: 40%;
+    padding: 15px;
+    margin-left: 420px;
+    border-radius: 28px;
+    border: 1px solid #F89980;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+.callnum p{
+    color: #000;
+    text-align: center;
+    margin-top: 25px;
+}
+.footer{
+    background-color: #F8F9FA;
+    padding: 48px 0px;
+}
+.footer p{
+    color: #6c757d;
+    text-align: center;
+    font-size: 1em;
+
+}
+
+
+
+
+ 
+ 
